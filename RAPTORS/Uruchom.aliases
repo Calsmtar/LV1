@@ -1,0 +1,8 @@
+[My Computer]
+My Computer="localhost"
+
+[NI-sbRIO9636-01A93195]
+NI-sbRIO9636-01A93195="192.168.1.99"
+
+[sbRIO9636]
+sbRIO9636="192.168.1.100"

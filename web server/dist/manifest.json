@@ -1,0 +1,21 @@
+{
+"name": "RAPTORS Control",
+"short_name": "RAPTORS Control",
+"icons": [
+{
+"src": "/assets/icons/android-chrome-192x192.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "/assets/icons/android-chrome-384x384.png",
+"sizes": "384x384",
+"type": "image/png"
+}
+],
+"theme_color": "#211f1f",
+"background_color": "#211f1f",
+"display": "standalone",
+"orientation": "landscape",
+"start_url": "index.html"
+}
