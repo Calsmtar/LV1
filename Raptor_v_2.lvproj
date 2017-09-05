@@ -1701,9 +1701,6 @@ DirectoryIndex index.htm
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
-				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/Intelligent Energy/WebSockets API/WebSockets/Write.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;vilib&gt;/Intelligent Energy/WebSockets API/WebSockets/Close.vi"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/Intelligent Energy/WebSockets API/WebSockets/Read.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
