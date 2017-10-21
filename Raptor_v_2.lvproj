@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="varPersistentID:{0CC28B73-CC99-4EA9-A81B-3397907007A0}" Type="Ref">/My Computer/od agnieszki auto.lvlib/V-postepowa</Property>
 	<Property Name="varPersistentID:{122F2ABA-8C3E-4CF4-945C-F814983C5766}" Type="Ref">/sbRIO9636/FPGA.lvlib/E-STOP ACTIVE</Property>
 	<Property Name="varPersistentID:{185E65D1-55B0-4679-8384-F921C8AFA440}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/czas</Property>
 	<Property Name="varPersistentID:{3307951B-0CFA-4629-B083-CD69804E0E3A}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/temperatura</Property>
@@ -27,6 +28,7 @@
 	<Property Name="varPersistentID:{A67DCCFC-BA46-4833-81D6-91B4D19DC733}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/status</Property>
 	<Property Name="varPersistentID:{A6A57BB5-D0D0-4A05-B563-2BCCEEE86566}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/CAN konfig_2</Property>
 	<Property Name="varPersistentID:{A6BA1047-EC0E-401A-9D7F-3C56B1422E2E}" Type="Ref">/sbRIO9636/FPGA.lvlib/okres wg</Property>
+	<Property Name="varPersistentID:{A6C1E974-005E-4F40-9152-6C19C3D33978}" Type="Ref">/My Computer/od agnieszki auto.lvlib/v-obrotowa</Property>
 	<Property Name="varPersistentID:{A890A284-E91A-4429-840B-017E7E0F5A03}" Type="Ref">/sbRIO9636/FPGA.lvlib/temperatura</Property>
 	<Property Name="varPersistentID:{B14BF866-10DC-448B-A33A-6EFF9D730938}" Type="Ref">/sbRIO9636/FPGA.lvlib/RESET STM</Property>
 	<Property Name="varPersistentID:{B462CCD0-145D-4F3C-A662-B1C11C7FB9ED}" Type="Ref">/My Computer/shared sterowanie.lvlib/Variable1</Property>
@@ -142,6 +144,11 @@
 		<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="../szablon odometry_filtered_local.ctl"/>
 		<Item Name="shared sterowanie.lvlib" Type="Library" URL="../shared sterowanie.lvlib"/>
 		<Item Name="safety_ctl.ctl" Type="VI" URL="../safety_ctl.ctl"/>
+		<Item Name="Global for diagnostic.vi" Type="VI" URL="../PC/Global for diagnostic.vi"/>
+		<Item Name="AXIS to POSITION.vi" Type="VI" URL="../PC/AXIS to POSITION.vi"/>
+		<Item Name="Threshold for axis.vi" Type="VI" URL="../PC/Threshold for axis.vi"/>
+		<Item Name="axis to position value.vi" Type="VI" URL="../PC/axis to position value.vi"/>
+		<Item Name="od agnieszki auto.lvlib" Type="Library" URL="../PC/od agnieszki auto.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -1668,6 +1675,7 @@ DirectoryIndex index.htm
 		<Item Name="fpga-type-def.ctl" Type="VI" URL="../RT/fpga-type-def.ctl"/>
 		<Item Name="LVRT Serial Init Used.vi" Type="VI" URL="../RT/LVRT Serial Init Used.vi"/>
 		<Item Name="LVRT Serial Read Used.vi" Type="VI" URL="../RT/LVRT Serial Read Used.vi"/>
+		<Item Name="zmien kierunek.vi" Type="VI" URL="../RT/zmien kierunek.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CANFrameControl.ctl" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANFrameControl.ctl"/>
@@ -1749,6 +1757,9 @@ DirectoryIndex index.htm
 			<Item Name="wyj auto.ctl" Type="VI" URL="../PC/wyj auto.ctl"/>
 			<Item Name="axis to drive.vi" Type="VI" URL="../PC/axis to drive.vi"/>
 			<Item Name="FPGA Watchdog - Elapsed Time.vi" Type="VI" URL="../FPGA/FPGA Watchdog - Elapsed Time.vi"/>
+			<Item Name="klapki.ctl" Type="VI" URL="../PC/klapki.ctl"/>
+			<Item Name="PWM to CAN.vi" Type="VI" URL="../PC/PWM to CAN.vi"/>
+			<Item Name="CANFrameControl.ctl" Type="VI" URL="../CANFrameControl.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RoboRaptor" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1767,7 +1778,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8BCD239C-970A-4D2A-A9D4-001A9CA102D5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">57</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -1781,7 +1792,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{42D59D95-6A8A-4D27-A651-31798F8A724E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C3F3B911-4454-4F1E-8D18-0B7F5A0BD492}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-sbRIO9636-01A93195/Main RT.vi</Property>
@@ -2996,11 +3007,14 @@ DirectoryIndex index.htm
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="niFpgaDdsAccum.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/siggen/SquareWave/templates/niFpgaDdsAccum.vi"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 					<Item Name="FPGA Watchdog - Elapsed Time.vi" Type="VI" URL="../FPGA/FPGA Watchdog - Elapsed Time.vi"/>
 					<Item Name="Gimbal 1.vi" Type="VI" URL="../FPGA/Gimbal 1.vi"/>
 					<Item Name="Gimbal 2.vi" Type="VI" URL="../FPGA/Gimbal 2.vi"/>
 					<Item Name="Gimbal 3.vi" Type="VI" URL="../FPGA/Gimbal 3.vi"/>
+					<Item Name="LV FPGA Serial Read Write.vi" Type="VI" URL="../../../Downloads/fpgaserialreadwrite_8.6/fpgaserialreadwrite_8.6_update/LV FPGA Serial Read Write.vi"/>
+					<Item Name="LV FPGA Serial Calc Timing Values.vi" Type="VI" URL="../../../Downloads/fpgaserialreadwrite_8.6/fpgaserialreadwrite_8.6_update/LV FPGA Serial Calc Timing Values.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Main FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3113,6 +3127,7 @@ DirectoryIndex index.htm
 			<Item Name="nitaglv.dll" Type="Document" URL="nitaglv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CANFrameControl.ctl" Type="VI" URL="../CANFrameControl.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RaptorRT" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
