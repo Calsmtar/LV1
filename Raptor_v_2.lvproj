@@ -149,6 +149,7 @@
 		<Item Name="Threshold for axis.vi" Type="VI" URL="../PC/Threshold for axis.vi"/>
 		<Item Name="axis to position value.vi" Type="VI" URL="../PC/axis to position value.vi"/>
 		<Item Name="od agnieszki auto.lvlib" Type="Library" URL="../PC/od agnieszki auto.lvlib"/>
+		<Item Name="change bool.vi" Type="VI" URL="../PC/change bool.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -1676,6 +1677,11 @@ DirectoryIndex index.htm
 		<Item Name="LVRT Serial Init Used.vi" Type="VI" URL="../RT/LVRT Serial Init Used.vi"/>
 		<Item Name="LVRT Serial Read Used.vi" Type="VI" URL="../RT/LVRT Serial Read Used.vi"/>
 		<Item Name="zmien kierunek.vi" Type="VI" URL="../RT/zmien kierunek.vi"/>
+		<Item Name="call service in ros.vi" Type="VI" URL="../RT/call service in ros.vi"/>
+		<Item Name="call service _ get time.vi" Type="VI" URL="../RT/call service _ get time.vi"/>
+		<Item Name="speed ro zero.vi" Type="VI" URL="../RT/speed ro zero.vi"/>
+		<Item Name="ROS Init websock.vi" Type="VI" URL="../PC/ROS/ROS Init websock.vi"/>
+		<Item Name="ROS send websock.vi" Type="VI" URL="../PC/ROS/ROS send websock.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CANFrameControl.ctl" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANFrameControl.ctl"/>
@@ -1778,7 +1784,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8BCD239C-970A-4D2A-A9D4-001A9CA102D5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">64</Property>
+				<Property Name="Bld_version.build" Type="Int">77</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -1792,7 +1798,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C3F3B911-4454-4F1E-8D18-0B7F5A0BD492}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4248F257-2063-47F5-85E8-0EBDE921BAA0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/NI-sbRIO9636-01A93195/Main RT.vi</Property>
