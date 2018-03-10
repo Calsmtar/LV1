@@ -62,7 +62,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main ctrl" Type="Folder">
-			<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="../szablon odometry_filtered_local.ctl"/>
+			<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="../subvi/szablon odometry_filtered_local.ctl"/>
 			<Item Name="Queue message.ctl" Type="VI" URL="../PC/Queue message.ctl"/>
 			<Item Name="klapki.ctl" Type="VI" URL="../PC/klapki.ctl"/>
 			<Item Name="wyj auto.ctl" Type="VI" URL="../PC/wyj auto.ctl"/>
@@ -70,7 +70,7 @@
 		</Item>
 		<Item Name="CAN ctrl" Type="Folder">
 			<Item Name="ramki konfiguracyjne.ctl" Type="VI" URL="../PC/ramki konfiguracyjne.ctl"/>
-			<Item Name="CANFrameControl.ctl" Type="VI" URL="../CANFrameControl.ctl"/>
+			<Item Name="CANFrameControl.ctl" Type="VI" URL="../RT/CANFrameControl.ctl"/>
 		</Item>
 		<Item Name="CAN sub" Type="Folder">
 			<Item Name="axis to can.vi" Type="VI" URL="../RT/axis to can.vi"/>
@@ -148,11 +148,11 @@
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
-			<Item Name="shared sterowanie.lvlib" Type="Library" URL="../shared sterowanie.lvlib"/>
+			<Item Name="shared sterowanie.lvlib" Type="Library" URL="../subvi/shared sterowanie.lvlib"/>
 			<Item Name="od agnieszki auto.lvlib" Type="Library" URL="../PC/od agnieszki auto.lvlib"/>
 		</Item>
 		<Item Name="common ctl" Type="Folder">
-			<Item Name="safety_ctl.ctl" Type="VI" URL="../safety_ctl.ctl"/>
+			<Item Name="safety_ctl.ctl" Type="VI" URL="../subvi/safety_ctl.ctl"/>
 		</Item>
 		<Item Name="Main PC Station.vi" Type="VI" URL="../PC/Main PC Station.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -287,6 +287,7 @@
 			<Item Name="Untitled 4 (SubVI).vi" Type="VI" URL="../PC/Untitled 4 (SubVI).vi"/>
 			<Item Name="Message Cluster.ctl" Type="VI" URL="../../../Documents/LabVIEW Data/Untitled Project 2/support/Message Queue/Message Cluster.ctl"/>
 			<Item Name="IEEE 754 Boolean_Array_to_SGL_LV2012_NI Verified.vi" Type="VI" URL="../PC/IEEE 754 Boolean_Array_to_SGL_LV2012_NI Verified.vi"/>
+			<Item Name="CANFrameControl.ctl" Type="VI" URL="../CANFrameControl.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Zip File" Type="Zip File">
@@ -1771,6 +1772,7 @@ DirectoryIndex index.htm
 			<Item Name="klapki.ctl" Type="VI" URL="../PC/klapki.ctl"/>
 			<Item Name="PWM to CAN.vi" Type="VI" URL="../PC/PWM to CAN.vi"/>
 			<Item Name="CANFrameControl.ctl" Type="VI" URL="../CANFrameControl.ctl"/>
+			<Item Name="CANFrameControl.ctl" Type="VI" URL="../RT/CANFrameControl.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RoboRaptor" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
