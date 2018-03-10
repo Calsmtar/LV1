@@ -1,12 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="varPersistentID:{0CC28B73-CC99-4EA9-A81B-3397907007A0}" Type="Ref">/My Computer/od agnieszki auto.lvlib/V-postepowa</Property>
 	<Property Name="varPersistentID:{122F2ABA-8C3E-4CF4-945C-F814983C5766}" Type="Ref">/sbRIO9636/FPGA.lvlib/E-STOP ACTIVE</Property>
 	<Property Name="varPersistentID:{185E65D1-55B0-4679-8384-F921C8AFA440}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/czas</Property>
 	<Property Name="varPersistentID:{3307951B-0CFA-4629-B083-CD69804E0E3A}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/temperatura</Property>
 	<Property Name="varPersistentID:{3E687DC1-72FF-48E1-BF92-B3B7C3FD678A}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/can2</Property>
 	<Property Name="varPersistentID:{402BFCF9-B38A-4599-854B-312C14F5E84B}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/reset stop manual</Property>
 	<Property Name="varPersistentID:{42EFFC35-ABA5-43A6-9C4D-82CDE739C739}" Type="Ref">/sbRIO9636/FPGA.lvlib/Total (%)</Property>
+	<Property Name="varPersistentID:{48E1F89D-F21D-4F69-8C51-5C56E75C6763}" Type="Ref">/My Computer/lib/od agnieszki auto.lvlib/obrotowa</Property>
 	<Property Name="varPersistentID:{495F3F83-22A3-4740-9E14-A58972280EFB}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/E-STOP ACTIVE</Property>
 	<Property Name="varPersistentID:{4970A755-C04B-43D7-9DD9-D51DA6B604FB}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/czas</Property>
 	<Property Name="varPersistentID:{4D9B6502-7A13-4D33-B41A-A99694EC7950}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/CAN konfig_2</Property>
@@ -21,6 +21,7 @@
 	<Property Name="varPersistentID:{796B4208-CAA4-4DC3-B37C-953DE1CC471B}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/can2</Property>
 	<Property Name="varPersistentID:{7DB32171-3036-4CA6-B26D-EA3B536DE89D}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/STOP ??</Property>
 	<Property Name="varPersistentID:{7FC12F1B-C990-4AF8-8F0E-40995AE0653D}" Type="Ref">/sbRIO9636/FPGA.lvlib/SAFETY ON</Property>
+	<Property Name="varPersistentID:{855E2564-BBA2-4DDE-B8F3-CB22B7F78F13}" Type="Ref">/My Computer/lib/od agnieszki auto.lvlib/postepowa</Property>
 	<Property Name="varPersistentID:{89E2AAC9-B2C2-43D7-B03A-2530952E203A}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/indeks</Property>
 	<Property Name="varPersistentID:{964453EC-72A0-4BAA-AE7B-3CAB1A3F0632}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/czas2</Property>
 	<Property Name="varPersistentID:{9D0E7C7C-19EA-4C3E-B309-2166FF57771A}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/okres wg</Property>
@@ -28,10 +29,9 @@
 	<Property Name="varPersistentID:{A67DCCFC-BA46-4833-81D6-91B4D19DC733}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/status</Property>
 	<Property Name="varPersistentID:{A6A57BB5-D0D0-4A05-B563-2BCCEEE86566}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/CAN konfig_2</Property>
 	<Property Name="varPersistentID:{A6BA1047-EC0E-401A-9D7F-3C56B1422E2E}" Type="Ref">/sbRIO9636/FPGA.lvlib/okres wg</Property>
-	<Property Name="varPersistentID:{A6C1E974-005E-4F40-9152-6C19C3D33978}" Type="Ref">/My Computer/od agnieszki auto.lvlib/v-obrotowa</Property>
 	<Property Name="varPersistentID:{A890A284-E91A-4429-840B-017E7E0F5A03}" Type="Ref">/sbRIO9636/FPGA.lvlib/temperatura</Property>
 	<Property Name="varPersistentID:{B14BF866-10DC-448B-A33A-6EFF9D730938}" Type="Ref">/sbRIO9636/FPGA.lvlib/RESET STM</Property>
-	<Property Name="varPersistentID:{B462CCD0-145D-4F3C-A662-B1C11C7FB9ED}" Type="Ref">/My Computer/shared sterowanie.lvlib/Variable1</Property>
+	<Property Name="varPersistentID:{B462CCD0-145D-4F3C-A662-B1C11C7FB9ED}" Type="Ref">/My Computer/lib/shared sterowanie.lvlib/Variable1</Property>
 	<Property Name="varPersistentID:{B59ED163-9A9B-40F2-8975-A0BE3E743D65}" Type="Ref">/NI-sbRIO9636-01A93195/stare/Biblio na.lvlib/output cluster</Property>
 	<Property Name="varPersistentID:{B5C1F222-A21C-4FC1-ACA5-F6CA648EB784}" Type="Ref">/NI-sbRIO9636-01A93195/FPGA.lvlib/RESET STM</Property>
 	<Property Name="varPersistentID:{B5ED5008-E76F-4866-9C05-0FE827E2C029}" Type="Ref">/sbRIO9636/stare/Biblio na.lvlib/czas2</Property>
@@ -61,10 +61,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="stare" Type="Folder">
-			<Item Name="testCAN 2.vi" Type="VI" URL="../RT/testCAN 2.vi"/>
-			<Item Name="testCAN 3 tcpip.vi" Type="VI" URL="../RT/testCAN 3 tcpip.vi"/>
-			<Item Name="testCAN.vi" Type="VI" URL="../RT/testCAN.vi"/>
+		<Item Name="Main ctrl" Type="Folder">
+			<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="../szablon odometry_filtered_local.ctl"/>
+			<Item Name="Queue message.ctl" Type="VI" URL="../PC/Queue message.ctl"/>
+			<Item Name="klapki.ctl" Type="VI" URL="../PC/klapki.ctl"/>
+			<Item Name="wyj auto.ctl" Type="VI" URL="../PC/wyj auto.ctl"/>
+			<Item Name="wyj manip.ctl" Type="VI" URL="../PC/wyj manip.ctl"/>
 		</Item>
 		<Item Name="CAN ctrl" Type="Folder">
 			<Item Name="ramki konfiguracyjne.ctl" Type="VI" URL="../PC/ramki konfiguracyjne.ctl"/>
@@ -100,14 +102,14 @@
 			<Item Name="add timestamp to drive.vi" Type="VI" URL="../PC/add timestamp to drive.vi"/>
 			<Item Name="skladanie bitow manipulator.vi" Type="VI" URL="../PC/skladanie bitow manipulator.vi"/>
 			<Item Name="add timestamp to arm.vi" Type="VI" URL="../PC/add timestamp to arm.vi"/>
-		</Item>
-		<Item Name="Main ctrl" Type="Folder">
-			<Item Name="Queue message.ctl" Type="VI" URL="../PC/Queue message.ctl"/>
-			<Item Name="klapki.ctl" Type="VI" URL="../PC/klapki.ctl"/>
-			<Item Name="wyj auto.ctl" Type="VI" URL="../PC/wyj auto.ctl"/>
-			<Item Name="wyj manip.ctl" Type="VI" URL="../PC/wyj manip.ctl"/>
+			<Item Name="change bool.vi" Type="VI" URL="../PC/change bool.vi"/>
+			<Item Name="axis to position value.vi" Type="VI" URL="../PC/axis to position value.vi"/>
+			<Item Name="Threshold for axis.vi" Type="VI" URL="../PC/Threshold for axis.vi"/>
+			<Item Name="AXIS to POSITION.vi" Type="VI" URL="../PC/AXIS to POSITION.vi"/>
+			<Item Name="IEE 754 binary to SGL.vi" Type="VI" URL="../PC/IEE 754 binary to SGL.vi"/>
 		</Item>
 		<Item Name="Global variables" Type="Folder">
+			<Item Name="Global for diagnostic.vi" Type="VI" URL="../PC/Global for diagnostic.vi"/>
 			<Item Name="Gobal for ROS.vi" Type="VI" URL="../PC/Gobal for ROS.vi"/>
 			<Item Name="Global GPS.vi" Type="VI" URL="../PC/Global GPS.vi"/>
 		</Item>
@@ -137,19 +139,22 @@
 			<Item Name="testy 3dconnectionn.vi" Type="VI" URL="../PC/testy 3dconnectionn.vi"/>
 			<Item Name="testy 3dconnection.vi" Type="VI" URL="../PC/testy 3dconnection.vi"/>
 			<Item Name="set time on rio.vi" Type="VI" URL="../SBRIO100/set time on rio.vi"/>
+			<Item Name="test sve.vi" Type="VI" URL="../PC/test sve.vi"/>
+		</Item>
+		<Item Name="stare" Type="Folder">
+			<Item Name="testCAN 2.vi" Type="VI" URL="../RT/testCAN 2.vi"/>
+			<Item Name="testCAN 3 tcpip.vi" Type="VI" URL="../RT/testCAN 3 tcpip.vi"/>
+			<Item Name="testCAN.vi" Type="VI" URL="../RT/testCAN.vi"/>
+		</Item>
+		<Item Name="lib" Type="Folder">
+			<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
+			<Item Name="shared sterowanie.lvlib" Type="Library" URL="../shared sterowanie.lvlib"/>
+			<Item Name="od agnieszki auto.lvlib" Type="Library" URL="../PC/od agnieszki auto.lvlib"/>
+		</Item>
+		<Item Name="common ctl" Type="Folder">
+			<Item Name="safety_ctl.ctl" Type="VI" URL="../safety_ctl.ctl"/>
 		</Item>
 		<Item Name="Main PC Station.vi" Type="VI" URL="../PC/Main PC Station.vi"/>
-		<Item Name="IEE 754 binary to SGL.vi" Type="VI" URL="../PC/IEE 754 binary to SGL.vi"/>
-		<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
-		<Item Name="szablon odometry_filtered_local.ctl" Type="VI" URL="../szablon odometry_filtered_local.ctl"/>
-		<Item Name="shared sterowanie.lvlib" Type="Library" URL="../shared sterowanie.lvlib"/>
-		<Item Name="safety_ctl.ctl" Type="VI" URL="../safety_ctl.ctl"/>
-		<Item Name="Global for diagnostic.vi" Type="VI" URL="../PC/Global for diagnostic.vi"/>
-		<Item Name="AXIS to POSITION.vi" Type="VI" URL="../PC/AXIS to POSITION.vi"/>
-		<Item Name="Threshold for axis.vi" Type="VI" URL="../PC/Threshold for axis.vi"/>
-		<Item Name="axis to position value.vi" Type="VI" URL="../PC/axis to position value.vi"/>
-		<Item Name="od agnieszki auto.lvlib" Type="Library" URL="../PC/od agnieszki auto.lvlib"/>
-		<Item Name="change bool.vi" Type="VI" URL="../PC/change bool.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -1784,7 +1789,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8BCD239C-970A-4D2A-A9D4-001A9CA102D5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">77</Property>
+				<Property Name="Bld_version.build" Type="Int">78</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
